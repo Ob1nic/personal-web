@@ -231,9 +231,6 @@ nav a:hover {
 }
 
 /*RESPONSIVE*/
-
-
-/* 📱 MOBILE */
 @media (max-width: 768px) {
 
     .navbar .container {
@@ -245,12 +242,13 @@ nav a:hover {
         justify-content: flex-start;
     }
 
-    /* mostra botão */
+    /*
     .menu-toggle {
         display: block;
-    }
+    }*/
 
-    /* esconde menu */
+
+    /* Menu*/
     .menu {
         position: absolute;
         top: 70px;
@@ -283,7 +281,7 @@ nav a:hover {
         gap: 5px;
     }
 
-    /* 👤 About */
+    /* About */
     .about {
         flex-direction: column;
         text-align: center;
@@ -293,7 +291,7 @@ nav a:hover {
         width: 120px;
     }
 
-    /* 📁 Projetos */
+    /* Projetos */
     .projects {
         flex-direction: column;
         align-items: center;
@@ -312,7 +310,7 @@ nav a:hover {
         font-size: 16px;
     }
 
-    /* 🏗️ Arquitetura */
+    /* Arquitetura */
     .arch-img {
         flex-direction: column;
         align-items: center;
@@ -323,7 +321,7 @@ nav a:hover {
         max-width: 100%;
     }
 
-    /* 🔘 Ícones */
+    /* Ícones */
     .icons {
         justify-content: center;
     }
